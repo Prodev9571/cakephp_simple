@@ -65,6 +65,7 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/', ['controller' => 'Contacts', 'action' => 'index', 'home']);
     $routes->connect('/index', ['controller' => 'Contacts', 'action' => 'index', 'home']);
     $routes->connect('/index_ext', ['controller' => 'Contacts', 'action' => 'index_ext', 'home']);
+    $routes->connect('/add', ['controller' => 'Contacts', 'action' => 'add', 'home']);
     /*
      * ...and connect the rest of 'Pages' controller's URLs.
      */
